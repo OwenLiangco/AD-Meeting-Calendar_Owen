@@ -5,8 +5,8 @@
 - MongoDB
 
 ## 1. Modifying Documentation: Update Readme
-- [ ] Check all the TODO Tasks
-- [ ] Delete `TODO` mark when done modifying
+- [x] Check all the TODO Tasks
+- [x] Delete `TODO` mark when done modifying
 
 ## 2. Modifying Composer: Update `composer.json`
 Change the following:
@@ -151,9 +151,9 @@ In this step we will design an automation that resets the database when needed a
 - Process: Automatically Create
 - Output: Create the Tables Ready for Use
 
-- [ ] Creating a new util code `dbResetPostgresql.util.php`
+- [x] Creating a new util code `dbResetPostgresql.util.php`
 
-- [ ] Setting up requirements
+- [x] Setting up requirements
 > Just copy this
 ```php
 declare(strict_types=1);
@@ -168,7 +168,7 @@ require 'bootstrap.php';
 require_once UTILS_PATH . '/envSetter.util.php';
 ```
 
-- [ ] Adding the database host and connecting
+- [x] Adding the database host and connecting
 ```php
 // ——— Connect to PostgreSQL ———
 $dsn = "pgsql:host={$pgConfig['host']};port={$pgConfig['port']};dbname={$pgConfig['db']}";
@@ -177,7 +177,7 @@ $pdo = new PDO($dsn, $pgConfig['user'], $pgConfig['pass'], [
 ]);
 ```
 
-- [ ] Using specific commands to use to automatically generate the database tables
+- [x] Using specific commands to use to automatically generate the database tables
 ```php
 // Just indicator it was working
 echo "Applying schema from database/user.model.sql…\n";
