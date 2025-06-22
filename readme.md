@@ -134,11 +134,8 @@ AD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
 
 | Title        | Purpose                                                                       | Link          |
 | ------------ | ----------------------------------------------------------------------------- | ------------- |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| W3Schools | Helped with some basic refrehsers of HTML, CSS, and JavaScript | w3schools.com |
+| ChatGPT | Helped with underlying errors, and improved some technical issues with the code | chatgpt.com |
