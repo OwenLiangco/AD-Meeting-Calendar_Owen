@@ -96,15 +96,21 @@ AD-ProjectName
 |   └─ css
 |   |   └─ name.css
 |   └─ img
-|   |   └─ name.jpeg/.jpg/.webp/.png
+|   |   └─ BluuCloud.png
 |   └─ js
 |       └─ name.js
 └─ components
 |   └─ name.component.php
 |   └─ templates
 |      └─ name.component.php
+└─ databases
+|  └─ meeting_users.model.sql
+|  └─ meeting.model.sql
+|  └─ tasks.model.sql
+|  └─ user.model.sql
 └─ handlers
-|   └─ name.handler.php
+|   └─ mongodbChecker.handler.php
+|   └─ postgreChecker.handler.php
 └─ layout
 |   └─ name.layout.php
 └─ pages
@@ -120,7 +126,8 @@ AD-ProjectName
 └─ staticData
 |  └─ name.staticdata.php
 └─ utils
-|   └─ name.utils.php
+|   └─ dbResetPostgrresql.util.php
+|   └─ envSetter.util.php
 └─ vendor
 └─ .gitignore
 └─ bootstrap.php
