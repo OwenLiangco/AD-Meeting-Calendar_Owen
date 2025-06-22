@@ -13,12 +13,10 @@
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/AD-CI4-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=OwenLiangco/AD-Meeting-Calendar_Owen)
 
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+[![wakatime](https://wakatime.com/badge/user/560aac68-1590-4066-a9a0-d2f81918e124/project/9056f0e2-2ddc-4a02-a792-1a465e2347a5.svg)](https://wakatime.com/badge/user/560aac68-1590-4066-a9a0-d2f81918e124/project/9056f0e2-2ddc-4a02-a792-1a465e2347a5)
 
 ---
 
