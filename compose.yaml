@@ -16,7 +16,8 @@ services:
           action: rebuild
     depends_on:
       - mongodb
-
+    volumes:
+      - ./.env:/var/www/html/.env
   mongodb:
     image: mongo:latest
     container_name: ad-meeting-owen-mongodb
