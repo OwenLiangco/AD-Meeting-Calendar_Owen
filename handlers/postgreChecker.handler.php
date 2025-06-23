@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . '/envSetter.util.php';
+require_once UTILS_PATH . 'envSetter.util.php';
 
 $conn_string = sprintf(
     "host=%s port=%s dbname=%s user=%s password=%s",
