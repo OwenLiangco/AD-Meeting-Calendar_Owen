@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #f2f2f2, #dbe9f4);
+  min-height: 100vh;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #21a5e2;
+  padding: 15px 30px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.navbar span {
+  font-weight: bold;
+  color: #333;
+  margin-left: 1rem;
+}
+
+.navbar .info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar .info p {
+  margin: 0;
+  color: #444;
+  font-size: 15px;
+}
+
+.logout-btn {
+  background-color: #ff5757;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #e04343;
+}
+
+.dashboard-content {
+  flex-grow: 1;
+  padding: 30px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.dashboard-content h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.dashboard-content p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.container {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 420px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+h2, h3, p {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+p.error {
+  color: crimson;
+  text-align: center;
+}
+
